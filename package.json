@@ -76,7 +76,7 @@
     "preset": "ts-jest"
   },
   "dependencies": {
-    "@cliz/cli": "^1.0.9"
+    "@cliz/cli": "^1.0.15"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
