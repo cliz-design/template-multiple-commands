@@ -40,7 +40,7 @@
     "test": "jest -w 1",
     "coverage": "codecov",
     "cli": "node lib/cli.js",
-    "register": "yarn cliz-global register",
+    "register": "yarn cliz global register",
     "prepare": "husky install"
   },
   "jest": {
@@ -77,10 +77,9 @@
     "preset": "ts-jest"
   },
   "dependencies": {
-    "@cliz/cli": "^1.0.16"
+    "@cliz/cli": "^1.0.17"
   },
   "devDependencies": {
-    "@cliz/global": "^1.0.2",
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
     "@types/git-url-parse": "^9.0.1",
